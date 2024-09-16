@@ -4,6 +4,7 @@ import numpy as np
 import pickle
 from sklearn.tree import DecisionTreeClassifier
 
+# Deploying the Decision Tree Model
 # Load the saved model
 model = pickle.load(open('C:/Users/hardi/Downloads/model.pkl', 'rb'))
 
